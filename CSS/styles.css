@@ -1,0 +1,31 @@
+:root {
+  --primary-color: black;
+  --secondary-color: green;
+  --background-color: #f8e8a6;
+}
+
+body {
+  text-align: center;
+  background: var(--background-color);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation a {
+  padding: 0 12px;
+}
+
+a {
+  color: var(--secondary-color);
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
